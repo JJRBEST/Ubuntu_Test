@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 22 May 2019 21:53:15 -0700
+Source: hello
+Binary: hello
+Architecture: source amd64
+Version: 2.10-2ubuntu2
+Distribution: eoan
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Steve Langasek <steve.langasek@ubuntu.com>
+Description:
+ hello      - example package based on GNU hello
+Changes:
+ hello (2.10-2ubuntu2) eoan; urgency=medium
+ .
+   * Handle exit code 77 for skipped autopkgtests.
+Checksums-Sha1:
+ 8e444bfb44aa7d4a8a40f2d6f8c18da17c986f31 927 hello_2.10-2ubuntu2.dsc
+ 6eefd78ed8fa4ec4ec3d140d740c46e1a65d62f5 6596 hello_2.10-2ubuntu2.debian.tar.xz
+ f2f80176d1a1087110d25f2f4c69d3b2565cde1b 35396 hello-dbgsym_2.10-2ubuntu2_amd64.ddeb
+ 173b4670dd49fbfe3ab8b98e562b0799bc6c1196 5751 hello_2.10-2ubuntu2_amd64.buildinfo
+ 00e73ea1c3b21a10802631da822bcbe068401d4d 52100 hello_2.10-2ubuntu2_amd64.deb
+Checksums-Sha256:
+ 40581712e1f86b8c5e9aecc7bcf17c92544bf2dea81191f686a23ca5920fe339 927 hello_2.10-2ubuntu2.dsc
+ 23f222ac7467c2bfdf392d07ffd16399bf083428ed92d04faa307ac487651f89 6596 hello_2.10-2ubuntu2.debian.tar.xz
+ c4e8824d86d34c32c7535a765c5b1843c910a1f06abffe8293fee6e523aa4544 35396 hello-dbgsym_2.10-2ubuntu2_amd64.ddeb
+ c0ff9bda9d4aed952e898293b32cc3e8e9b7d201ba0c0adc4bb936e01a4f590d 5751 hello_2.10-2ubuntu2_amd64.buildinfo
+ 37e99efa0624311faeda36a16025e84864e1060c6977b9e77f5924f0f4dfa516 52100 hello_2.10-2ubuntu2_amd64.deb
+Files:
+ cb73187a97ce4e4eeeb7014ef4164dd9 927 devel optional hello_2.10-2ubuntu2.dsc
+ 40d8762e8498a69aa25317cfbcda28a4 6596 devel optional hello_2.10-2ubuntu2.debian.tar.xz
+ 7b6bdfe31df77d222db9dcb831a47a1a 35396 debug optional hello-dbgsym_2.10-2ubuntu2_amd64.ddeb
+ a02c6e937cf4fadf6c9c2d5876072ecd 5751 devel optional hello_2.10-2ubuntu2_amd64.buildinfo
+ 2fbbad09622f43c0f66d4cf3feef45ad 52100 devel optional hello_2.10-2ubuntu2_amd64.deb
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
